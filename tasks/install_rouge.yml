@@ -1,0 +1,4 @@
+---
+
+- name: Install rouge gem
+  command: "{{ jekyll_gem_path }} install rouge --version {{ jekyll_rouge_version }}"

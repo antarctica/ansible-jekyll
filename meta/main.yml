@@ -1,0 +1,24 @@
+---
+galaxy_info:
+  description: Installs the Jekyll static site generator and optional plugins/extensions
+  author: British Antarctic Survey - Web and Applications Team
+  company: British Antarctic Survey
+  license: MIT
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+      - trusty
+  categories:
+  - web
+
+armadillo_info:
+  name: Jeykll
+  version: 0.1.0
+  source: git@stash.ceh.ac.uk:7999/barc/jeykll.git
+  dependencies:
+    - git@stash.ceh.ac.uk:7999/barc/core.git#v1.0.0
+    - rvm_io.rvm1-ruby
+
+dependencies:
+  - core
+  - rvm_io.rvm1-ruby

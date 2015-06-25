@@ -1,0 +1,7 @@
+---
+# Install curl
+
+- include: install_jekyll.yml
+
+- include: install_rouge.yml
+  when: jekyll_enable_feature_install_rouge == true

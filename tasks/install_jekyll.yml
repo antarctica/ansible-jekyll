@@ -1,0 +1,4 @@
+---
+
+- name: Install jekyll gem
+  command: "{{ jekyll_gem_path }} install jekyll --version {{ jekyll_jeykll_version }}"

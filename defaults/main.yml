@@ -1,0 +1,11 @@
+---
+
+jekyll_jeykll_version: 2.5.3
+
+jekyll_gem_path: "/usr/local/rvm/bin/rvm all do gem"
+
+jekyll_enable_feature_install_rouge: true
+
+jekyll_rouge_version: "1.9.0"
+
+jekyll_site_config_directory: "/app"
